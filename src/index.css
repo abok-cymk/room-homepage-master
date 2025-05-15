@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-leagueSpartan: "League Spartan", sans-serif;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+
+  --color-custom-white: hsl(0, 100%, 100%);
+  --color-custom-grey-500: hsl(0, 0%, 63%);
+  --color-custom-grey-800: hsl(0, 0%, 27%);
+  --color-custom-black: hsl(0, 0%, 0%);
+}
