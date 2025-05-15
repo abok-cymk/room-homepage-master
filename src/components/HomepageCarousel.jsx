@@ -1,8 +1,4 @@
-// import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
-// import Carousel from "react-bootstrap/Carousel";
-import { FaArrowRight } from "react-icons/fa";
-import { FaArrowRightLong } from "react-icons/fa6";
 import Navbar from "./Navbar";
 
 const carouselData = [
@@ -77,7 +73,7 @@ export default function HomepageCarousel() {
                 prev === 0 ? carouselData.length - 1 : prev - 1
               )
             }
-            className="bg-black text-white w-12 lg:w-[105px] h-12 flex items-center justify-center hover:bg-black/20 cursor-pointer"
+            className="bg-black text-white w-12 lg:w-[105.8px] flex items-center justify-center hover:bg-black/20 cursor-pointer"
           >
             <img src="/icon-angle-left.svg" alt="" />
           </button>
@@ -87,7 +83,7 @@ export default function HomepageCarousel() {
                 prev === carouselData.length - 1 ? 0 : prev + 1
               )
             }
-            className="bg-black text-white w-12 lg:w-[105px] h-12 flex items-center justify-center hover:bg-black/20 cursor-pointer"
+            className="bg-black text-white w-12 lg:w-[105.8px] flex items-center justify-center hover:bg-black/20 cursor-pointer"
           >
             <img src="/icon-angle-right.svg" alt="" />
           </button>
