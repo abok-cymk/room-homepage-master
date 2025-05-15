@@ -73,7 +73,7 @@ export default function HomepageCarousel() {
                 prev === 0 ? carouselData.length - 1 : prev - 1
               )
             }
-            className="bg-black text-white w-12 lg:w-[105.8px] flex items-center justify-center hover:bg-black/20 cursor-pointer"
+            className="bg-black text-white w-12 h-12 lg:h-full lg:w-[105.8px] flex items-center justify-center hover:bg-black/20 cursor-pointer"
           >
             <img src="/icon-angle-left.svg" alt="" />
           </button>
@@ -83,7 +83,7 @@ export default function HomepageCarousel() {
                 prev === carouselData.length - 1 ? 0 : prev + 1
               )
             }
-            className="bg-black text-white w-12 lg:w-[105.8px] flex items-center justify-center hover:bg-black/20 cursor-pointer"
+            className="bg-black text-white w-12 h-12 lg:h-full lg:w-[105.8px] flex items-center justify-center hover:bg-black/20 cursor-pointer"
           >
             <img src="/icon-angle-right.svg" alt="" />
           </button>

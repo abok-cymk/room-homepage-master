@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [room homepage master](https://github.com/abok-cymk/room-homepage-master)
-- Live Site URL: [room homepage master](https://your-live-site-url.com)
+- Live Site URL: [room homepage master](https://room-homepage-master-eta.vercel.app/)
 
 ## My process
 
